@@ -7,6 +7,7 @@ solidity의 함수가 실행될 때, 함수명 전체가 아닌 keccak256(함수
 https://forum.openzeppelin.com/t/beware-of-the-proxy-learn-how-to-exploit-function-clashing/1070
 
 ## 공격 방법
+<img width="740" alt="image" src="https://github.com/dik654/Bridge_hacks/assets/33992354/abd467bd-b29e-4072-a4b5-77f7447308fa">
 
 <img width="836" alt="image" src="https://github.com/dik654/Bridge_hacks/assets/33992354/48ee9823-3a2f-47ed-8def-6883b678dd38">
 <img width="1456" alt="image" src="https://github.com/dik654/Bridge_hacks/assets/33992354/321a59a7-0846-44fd-a2f4-4ba7bf64a567">
