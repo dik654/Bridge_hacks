@@ -1,13 +1,17 @@
 ## 사용된 취약점
-폴리곤 sidechain에서 Merkle proof의 중복을 이용한 double spending 공격 
+폴리곤 sidechain에서 Merkle Patrica Tree의 decoding 과정에서 중복을 이용한 double spending 공격 
 
 해당 내용에 대한 블로그 글
 
 https://medium.com/immunefi/polygon-double-spend-bug-fix-postmortem-2m-bounty-5a1db09db7f1
 
 ## 공격 방법
-Merkle Patrica Tree의 decoding 방식의 헛점을 이용하여 여러 동일한 exit을 만들어 내어
-한 burn transaction을 "여러 branch mask를 차례대로 이용하여" 검증하는데 성공하였다(double spending)
+branch mask란 trie 구조에서 특정 값에 도달하기 위한 경로를 나타내는데 사용하는 값인데, 
+폴리곤에서는 burn 트랜잭션의 receipt의 위치에 branch mask로 도달할 경우 verify에 성공하여 withdraw를 할 수 있다.
+
+그런데 디코딩 과정에서의 시작 nibble이 0으로 시작하면 첫 byte를 읽지않고 넘어간다
+이 로직에 의해 여러 인코딩된 branch mask가 디코딩 과정에서 동일한 값을 나타내게 되었고, 한 트랜잭션에 여러번 verify가 가능하게 되는 문제가 생겼다.
+
 
 
 ## 해결책
