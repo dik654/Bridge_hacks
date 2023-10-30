@@ -13,3 +13,7 @@ https://forum.openzeppelin.com/t/beware-of-the-proxy-learn-how-to-exploit-functi
 
 <img width="836" alt="image" src="https://github.com/dik654/Bridge_hacks/assets/33992354/48ee9823-3a2f-47ed-8def-6883b678dd38">
 <img width="1456" alt="image" src="https://github.com/dik654/Bridge_hacks/assets/33992354/321a59a7-0846-44fd-a2f4-4ba7bf64a567">
+
+## 해결책
+실제 목적지 체인에서 트랜잭션이 실행되지않아도 증명이 생성되었고, 이 증명만이 출발지 체인에서 중요하였기에 생긴 문제이므로,
+트랜잭션의 유효성을 검증하는 부분을 보완하여 문제를 해결할 수 있다
