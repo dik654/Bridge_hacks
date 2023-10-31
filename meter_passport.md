@@ -5,11 +5,11 @@
 
 ## 공격 방법
 <img width="511" alt="image" src="https://github.com/dik654/Bridge_hacks/assets/33992354/24a9f8f6-9564-430d-9a64-21dcf1dd3cf1">
-\n\n\n\n\n
+\n \n \n \n \n
 <img width="1037" alt="image" src="https://github.com/dik654/Bridge_hacks/assets/33992354/2db31740-ab4c-4c6e-a93b-c0d937826998">
-\n\n\n\n\n
+\n \n \n \n \n
 <img width="934" alt="image" src="https://github.com/dik654/Bridge_hacks/assets/33992354/48f83fc5-aa4c-4fcb-93d2-e8fa49afad99">
-\n\n\n
+\n \n \n
 
 ## 해결책
 새로운 기능이 추가되었을 때, 기존에 있던 요소들과의 상호관계도 꼼꼼히 따져봐야한다
