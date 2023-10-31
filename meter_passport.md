@@ -4,7 +4,6 @@
 기존에 있던 deposit()함수를 통하면 wETH의 예외처리 때문에 토큰을 실제로 deposit하지않고도 withdraw가 가능하였다
 
 해당 공격 관련 글
-
 https://coincodecap.com/meter-io-hacked-around-4-3m-lost
 
 <br/><br/>
