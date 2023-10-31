@@ -4,7 +4,13 @@
 기존에 있던 deposit()함수를 통하면 wETH의 예외처리 때문에 토큰을 실제로 deposit하지않고도 withdraw가 가능하였다
 
 ## 공격 방법
-<img width="939" alt="image" src="https://github.com/dik654/Bridge_hacks/assets/33992354/c6c120c9-14a8-43c0-b359-568e431c1edd">
+<img width="1037" alt="image" src="https://github.com/dik654/Bridge_hacks/assets/33992354/2db31740-ab4c-4c6e-a93b-c0d937826998">
+
+
+
+
+<img width="934" alt="image" src="https://github.com/dik654/Bridge_hacks/assets/33992354/48f83fc5-aa4c-4fcb-93d2-e8fa49afad99">
+
 
 ## 해결책
 새로운 기능이 추가되었을 때, 기존에 있던 요소들과의 상호관계도 꼼꼼히 따져봐야한다
