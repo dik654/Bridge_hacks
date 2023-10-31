@@ -2,6 +2,9 @@
 relayer가 브릿지 컨트랙트의 이벤트를 리스닝하는게 아니라
 유저의 모든 트랜잭션의 이벤트를 리스닝하고 있어
 relayer가 감지하는 이벤트와 동일한 이벤트를 발생시키는 공격 컨트랙트를 생성, 이벤트를 발생시켜 relayer를 속인다
+
+해당 공격 관련 글
+https://medium.com/pnetwork/pnetwork-post-mortem-pbtc-on-bsc-exploit-170890c58d5f
 <br/><br/>
 
 ## 공격 방법
